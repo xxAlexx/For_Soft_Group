@@ -1,0 +1,173 @@
+body {
+    background: #fefefe;
+    margin: 0;
+    padding: 0;
+    font: 1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+    color: #272727;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+}
+
+/*
+.main {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+}
+*/
+
+.bl {
+    padding:  10px;
+    border: 1px solid #ddd;
+    background: #fefefe;
+    border-radius: 2px;
+    margin: 5px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+.bl.head h2 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 25px;
+}
+.bl.head p {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 25px;
+}
+
+
+
+.fa-facebook-f:before,
+.fa-facebook:before{
+    position: absolute;
+    margin: 7px 0px 0 -6px;
+}
+.fa-github-alt:before{
+    position: absolute;
+    margin: 7px 0px 0px -7px;
+}
+
+.bl.down{
+    border: none;
+}
+.bl.down a{
+    text-decoration: none;}
+
+.bl.down a {
+    
+    text-decoration: none;
+}
+.bl.down i{
+    vertical-align: baseline;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: #3470ac;
+    margin-bottom: -13px;
+}
+.bl.down i:hover{
+   background: #084077;
+   
+}
+.fa.fa-github-alt {
+
+    color: #ffffff;
+}
+
+.fa.fa-facebook{
+   
+    color: #ffffff;
+}
+.bl.rt p{
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.bl.rt h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
+.Experience h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+
+
+.bl.foot{
+    background: #ffffff;
+}
+
+.mainwrapper{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1170px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+    
+.bl.lf{
+    flex: 1 1 400px;     
+}
+.bl.rt{
+ flex: 1 1 400px;
+    
+}
+
+.bl.head{
+flex-basis: 100%;
+
+}
+
+.bl.foot{
+  flex-basis: 100%;  
+}
+
+
+ img{
+    width: 100%;
+    height: auto;
+}
+
+.biography {
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.biography h3{
+    text-align: center;
+}
+
+.list li p {
+   margin: 3px 0;
+}
+
+
+
+
+
+
+
